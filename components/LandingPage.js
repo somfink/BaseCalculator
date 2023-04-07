@@ -7,7 +7,7 @@ const LandingPage = () => {
     const [baseConcentration, setBaseConcentration] = useState('');
     const [targetConcentration, setTargetConcentration] = useState('');
     const [targetVolume, setTargetVolume] = useState('');
-    const [output, setOutput] = useState('null');
+    const [output, setOutput] = useState('');
 
     const baseInputHandler = enteredText => {
         setBaseConcentration(enteredText);
